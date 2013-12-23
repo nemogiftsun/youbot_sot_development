@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+        
+  <include file="$(find youbot_gazebo_worlds)/ros/launch/youbot_env.launch" />
+
+  <include file="$(find youbot_bringup_sim)/robots/youbot.launch" />
+
+
+  <!-- start gui -->
+
+   <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/> 
+
+                
+</launch>
+        

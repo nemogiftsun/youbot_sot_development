@@ -1,0 +1,12 @@
+<package>
+  <description brief="youbot_gazebo_world">
+
+     youbot_gazebo_world
+
+  </description>
+  <author>Nemo Giftsun</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/edufill_gazebo_world</url>
+
+</package>

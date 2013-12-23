@@ -1,0 +1,14 @@
+<package>
+  <description brief="youbot_config">
+
+     edufill_hardware_config
+
+  </description>
+  <author>Nemo Giftsun</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/youbot_config</url>
+
+</package>
+
+

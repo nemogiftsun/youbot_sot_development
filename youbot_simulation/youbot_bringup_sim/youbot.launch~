@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+        
+  <param name="use_sim_time" value="true" />
+    <arg name="frame" value="base_link"/>
+    <arg name="child_frame" value="odom"/>
+
+
+  <include file="$(find youbot_description)/launch/control/youbot_base_control.launch" />
+
+  <include file="$(find youbot_description)/launch/control/youbot_gripper_control.launch" />
+
+  <include file="$(find youbot_description)/launch/control/youbot_arm_control.launch" />
+
+
+  <!-- start gui -->
+   <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/> 
+
+                
+</launch>
+        
