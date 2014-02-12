@@ -10,7 +10,7 @@
   <include filename="$(find youbot_description)/urdf/common.xacro" />
 
   <!-- youbot base -->
-  <include filename="$(find youbot_config)/urdf/youbot-laas-base.urdf.xacro" />
+  <include filename="$(find youbot_description)/urdf/youbot_base/base.urdf.xacro" />
 
   <!-- youbot plate -->
   <include filename="$(find youbot_description)/urdf/youbot_plate/plate.urdf.xacro" /> 
