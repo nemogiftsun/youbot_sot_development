@@ -9,6 +9,6 @@ src/lisp/
 src/sot_pr2/
 srv/lisp/
 srv_gen/
-
+*~
 *.cfgc
 
