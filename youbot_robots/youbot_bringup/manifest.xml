@@ -1,0 +1,10 @@
+<package>
+  <description brief="youbot_bringup">
+   sim bringup
+  </description>
+  <author>Nemo Giftsun</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/edufill_gazebo_world</url>
+
+</package>

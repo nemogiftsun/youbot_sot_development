@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>	
+
+   <param name="robot_description" command="$(find xacro)/xacro.py '$(find youbot_config)/urdf/youbot-laas-sot.urdf.xacro'"/>
+ <param name="robot_description_sot" command="$(find xacro)/xacro.py '$(find youbot_config)/urdf/youbot-laas.urdf.xacro'"/>
+
+
+
+  <!-- start robot_state_publisher 
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen" />-->
+
+  <include file="$(find youbot_oodl)/launch/youbot_oodl_driver.launch" />
+
+	
+
+	<include file="$(find youbot_bringup)/components/youbot/base_front_hokuyo_node.launch" />
+
+
+
+</launch>
